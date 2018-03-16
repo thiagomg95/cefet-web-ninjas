@@ -1,0 +1,92 @@
+body
+{
+	background-image: url('./img/fundo.svg');
+	background-size: 5%;
+  background-color: lemonchiffon;
+  background-blend-mode: difference;
+	margin-left: 8%;
+	margin-right: 8%;
+	text-align: justify;
+	font-family: 'Times New Roman';
+	font-size: 17px;
+}
+
+h1
+{
+	font-family: '4 Star Face Font';
+	color: red;
+	font-size: 58px;
+	display: block;
+	text-align: center;
+}
+
+h2
+{
+	font-family: '4 Star Face Font';
+	color: black;
+	font-size: 42px;
+}
+
+img, iframe
+{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo:hover
+{
+	opacity: 1;
+}
+
+#logo
+{
+	opacity: 0.1;
+	transition: all 200ms ease-out;
+	width: 17%;
+	height: 17%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#curiosidades
+{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.numero
+{
+	background-color: #DB7093;
+	color: purple;
+	font-size: 25px;
+	padding: 5px 10px 5px;
+	font-weight: bold;
+}
+
+.texto
+{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Arial'
+}
+
+a
+{
+		text-decoration: none;
+}
+
+a[href^='http']
+{
+	background-image: url('./img/globo.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.nota
+{
+	opacity: 0.5;
+}
